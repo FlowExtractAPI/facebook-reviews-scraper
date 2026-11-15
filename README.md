@@ -42,9 +42,10 @@ You pay per review delivered, a small fee for each page that returns reviews, an
 |---|---|---|---|---|
 | Review | $0.0020 | $0.0016 | $0.0013 | $0.0011 |
 | Page scraped (once per page with reviews) | $0.0020 | $0.0020 | $0.0020 | $0.0020 |
-| Actor start (per GB of memory; the Actor uses 0.5 GB) | $0.0020 | $0.0020 | $0.0020 | $0.0020 |
+| Actor start (once per run) | $0.0020 | $0.0020 | $0.0020 | $0.0020 |
 
 - **1,000 reviews** cost about **$2.00** on the FREE plan and **$1.10** on GOLD (+ page and start fees).
+- Example (FREE plan): 20 reviews from one page = 20 × $0.002 + $0.002 page + $0.002 start = **$0.044**.
 - Pages with no visible reviews, links that are not pages, and notice rows are never charged.
 - Set **Max cost per run** to cap spending: the Actor stops at the cap and delivers exactly what was charged.
 - Test with `10` reviews first.
